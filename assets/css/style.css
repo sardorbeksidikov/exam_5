@@ -357,7 +357,6 @@ header {
   font-size: 16px;
   font-weight: 600;
   line-height: 22px;
-  background: url("../../assets/images/dark-mode.svg") no-repeat;
   background-position: 5px;
 }
 
@@ -454,11 +453,10 @@ header {
 }
 .search__input {
   border: none;
-  padding: 16px;
-  padding-left: 20px;
+  padding: 20px 30px;
   width: 90%;
   background: url("../../assets/images/search (1).svg") no-repeat;
-  background-position: -1px 17px;
+  background-position: 2px 18px;
   background-color: var(--elements-color);
   color: inherit;
 }
@@ -469,6 +467,7 @@ header {
   transition: 0.5s;
   -webkit-box-shadow: 0 0 8px 0px rgba(10, 195, 241, 0.15);
           box-shadow: 0 0 8px 0px rgba(10, 195, 241, 0.15);
+  border: none;
 }
 
 .region {
